@@ -1,0 +1,56 @@
+* {
+  /* tira as margens e padding padrao do css 
+  o box-sizing serve para o tamanho partir da borda dos objetos
+  assim forcando o cara a se virar para caber na tela */
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#topLayout{
+  border: 5px solid red;
+  display: flex;
+}
+
+#logo{
+  border-radius: 4px;
+  width: 80px;
+}
+
+h1 {
+  border: 5px solid red;
+}
+
+/* Style to hide the default dropdown arrow */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* Style for the custom dropdown */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the hidden options container */
+.options-container {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Style for the options */
+.options {
+  padding: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
