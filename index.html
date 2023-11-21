@@ -20,48 +20,30 @@
         <a href="http://127.0.0.1:5500/ECOMMERCE_BROKEN/"><img id="logo" src="./resources/logo.png"></a>
         <div>Enviar para</div>
         <div id="searchBox">
-          <form>
-            <fieldset >
-              <legend>Escolha seus interesses</legend>
-              <div>
-                <input
-                  type="checkbox"
-                  id="codificação"
-                  name="interesse"
-                  value="codificação" />
-                <label for="coding"> Codificação </label>
+          <div class="custom-dropdown">
+            <select id="original-select">
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+              <!-- Add more options as needed -->
+            </select>
+        
+            <!-- Hidden options container -->
+            <div class="options-container" id="options-container">
+              <div class="options">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <!-- Add more options as needed -->
               </div>
-              <div>
-                <input type="checkbox" id="música" name="interesse" value="música" />
-                <label for="music"> Música </label>
-              </div>
-              <div>
-                <input type="checkbox" id="arte" name="interesse" value="arte" />
-                <label for="art"> Art </label>
-              </div>
-              <div>
-                <input type="checkbox" id="sports" name="interesse" value="esportes" />
-                <label for="sports"> Esportes </label>
-              </div>
-              <div>
-                <input type="checkbox" id="cozinhar" name="interesse" value="cozinhar" />
-                <label for="cooking"> Cozinhando </label>
-              </div>
-              <div>
-                <input type="checkbox" id="outro" name="interesse" value="outro" />
-                <label for="other"> Outro </label>
-                <input type="text" id="otherValue" name="outro" />
-              </div>
-              <div>
-                <button type="submit">Enviar formulário</button>
-              </div>
-            </fieldset>
-          </form>
+            </div>
+          </div>
+        
         </div>
     
     </div>
     <h1>Welcome to amazon's dirty copy</h1>
-    <p>Your money is accept, your satisfaction, not garanteed</p>
+    <p>Your money is accepted, your satisfaction, not garanteed</p>
     
     <script src="" async defer></script>
   </body>
