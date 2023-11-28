@@ -7,6 +7,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  --text-color: white;
+  --stroke-color: rgba(255,255,255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(255, 255, 255, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+body *{
+  color: var(--text-color)
+}
 
 #topLayout{
   border: 5px solid red;
@@ -57,4 +68,23 @@ select {
 
 #topLayout{
   background: #0f1111;
+}
+
+#topLayout div, select, form{
+  display: flex;
+  padding:  10px 4px 10px 3px;
+}
+#topLayout div:hover, select:hover, form:hover{
+  border: white;
+}
+
+
+#search-box-options .custom-dropdown{
+  display: flex;
+  width: 2px;
+  
+}
+
+#search-thing input{
+  width: 500px
 }
