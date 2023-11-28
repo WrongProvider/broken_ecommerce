@@ -19,7 +19,10 @@
     <div id='topLayout'>
         <a href="http://127.0.0.1:5500/ECOMMERCE_BROKEN/"><img id="logo" src="./resources/logo.png"></a>
         <!-- produzir um onclick nessa link que abra uma janela com infos de lugar -->
-        <div>Enviar para</div>
+        <div>Enviar para
+          <ion-icon name="location-outline"></ion-icon>
+          Costumer-name
+        </div>
         <div id="searchBox">
           <div class="custom-dropdown">
             <select id="original-select">
@@ -42,8 +45,8 @@
 
           <form method="post" id="search-thing">
             search
-            <input type="search">
-            <button>submit</button>
+            <input type="search" placeholder="search here">
+            <button><ion-icon name="search-outline"></ion-icon></button>
           </form>
         
         </div>
@@ -53,5 +56,7 @@
     <p>Your money is accepted, your satisfaction, not garanteed</p>
     
     <script src="./script.js" async defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
